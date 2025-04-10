@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    /* Rich, sophisticated color palette */
+    --background: 230 33% 97%;
+    --foreground: 224 71.4% 4.1%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 224 71.4% 4.1%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71.4% 4.1%;
+    
+    /* Royal blue as primary color */
+    --primary: 225 82% 36%;
+    --primary-foreground: 210 40% 98%;
+    
+    /* Sophisticated secondary tones */
+    --secondary: 228 22% 92%;
+    --secondary-foreground: 225 40% 20%;
+    
+    /* Elegant muted colors */
+    --muted: 228 22% 92%;
+    --muted-foreground: 225 20% 45%;
+    
+    /* Subtle accents */
+    --accent: 227 25% 85%;
+    --accent-foreground: 225 40% 20%;
+    
+    /* Warning and destructive colors */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    
+    /* Refined borders and inputs */
+    --border: 225 25% 90%;
+    --input: 225 25% 90%;
+    --ring: 225 82% 36%;
+    
+    --radius: 0.6rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .hero-gradient {
+    background: radial-gradient(
+      circle at top center,
+      rgba(30, 64, 175, 0.08) 0%,
+      rgba(30, 64, 175, 0.02) 45%,
+      rgba(30, 64, 175, 0) 100%
+    );
+  }
+
+  .card-gradient {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.9) 100%
+    );
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+  }
+
+  .card-hover {
+    @apply transition-all duration-500 hover:shadow-xl hover:shadow-blue-900/[0.03] hover:-translate-y-1;
+  }
+
+  .input-ring {
+    @apply focus-visible:ring-2 focus-visible:ring-blue-600/15 focus-visible:border-blue-600/30 
+           bg-white/80 backdrop-blur-sm transition-all duration-300;
+  }
+
+  .button-glow {
+    @apply hover:shadow-[0_0_25px_rgba(30,64,175,0.2)] transition-all duration-500 
+           bg-gradient-to-br from-blue-900 to-blue-800 hover:from-blue-800 hover:to-blue-700
+           text-white border-none;
+  }
+
+  .tab-active {
+    @apply data-[state=active]:bg-white/90 data-[state=active]:text-blue-900 
+           data-[state=active]:shadow-sm data-[state=active]:backdrop-blur-sm;
+  }
+
+  .algorithm-card {
+    @apply bg-gradient-to-br from-white/90 to-white/80 backdrop-blur-md
+           border border-white/60 shadow-sm hover:shadow-xl
+           transition-all duration-500 hover:scale-[1.02]
+           hover:border-blue-100;
+  }
+
+  .algorithm-icon {
+    @apply p-2.5 rounded-xl bg-gradient-to-br from-blue-50 to-blue-100/50
+           text-blue-900 transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 8s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0px); }
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-gradient {
+    background: linear-gradient(
+      to right,
+      theme(colors.blue.900),
+      theme(colors.blue.700),
+      theme(colors.blue.900)
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 8s linear infinite;
+  }
+
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .text-shadow {
+    text-shadow: 0 2px 15px rgba(30, 64, 175, 0.15);
+  }
+
+  .glass-effect {
+    @apply bg-white/40 backdrop-blur-md border border-white/60
+           shadow-[0_8px_32px_rgba(30,64,175,0.04)];
+  }
+}
