@@ -1,4 +1,4 @@
-<img width="1440" alt="Homepage" src="https://github.com/user-attachments/assets/6b55c784-6ff1-4554-b469-25ae15ce4d5a" /><img width="1440" alt="Encryption_process" src="https://github.com/user-attachments/assets/6219f36c-3c6c-46b4-bba5-eccf09b26264" /># CipherGrid - Classical Cryptography Toolkit 🔐
+# CipherGrid - Classical Cryptography Toolkit 🔐
 
 A modern, interactive web application showcasing 15 classical cryptographic algorithms with real-time encryption and decryption capabilities.
 
@@ -74,9 +74,9 @@ Visit the live application: [CipherGrid](https://ciphergrid.vercel.app/)
 
 ## 📸 Screenshots
 
-![Homepage](./assets/homepage.png)
-![Encryption Demo](./assets/encryption.png)
-![Algorithm Selection](./assets/algorithms.png)
+![Homepage](<img width="1440" alt="Homepage" src="https://github.com/user-attachments/assets/6b55c784-6ff1-4554-b469-25ae15ce4d5a" />)
+![Encryption Demo](<img width="1440" alt="Encryption_process" src="https://github.com/user-attachments/assets/6219f36c-3c6c-46b4-bba5-eccf09b26264" />)
+![Algorithm Selection](https://drive.google.com/file/d/18UXBZer3lUPE1v45i90yKEveerii9UaC/view?usp=sharing)
 
 ## 📁 Project Structure
 
@@ -93,17 +93,6 @@ CryptoGraphy-13-Algorithms/
 ├── public/              # Static assets
 └── assets/             # README assets (screenshots, etc.)
 ```
-
-## 📷  Screenshots
-   - `demo.gif` - Working of my cryptotollkit
-   https://drive.google.com/file/d/18UXBZer3lUPE1v45i90yKEveerii9UaC/view?usp=sharing
-     
-   - `homepage.png` - Homepage screenshot
-<img width="1440" alt="Homepage" src="https://github.com/user-attachments/assets/2cee9fb9-20ab-43af-b996-c6f8253f4c36" />
-
-   - `encryption.png` - Encryption process screenshot
-<img width="1440" alt="Encryption_process" src="https://github.com/user-attachments/assets/b323b0a4-cb9e-460a-bd41-05c5a3209b40" />
-
 
 ## 🤝 Contributing
 
