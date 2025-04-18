@@ -811,13 +811,13 @@ function App() {
           <footer className="mt-12 text-center">
             <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-blue-100 shadow-sm hover:shadow-md transition-all duration-300">
               <a 
-                href="https://github.com/rishithr1" 
+                href="https://github.com/rishithr1/CryptoGraphy-13-Algorithms" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-gray-600 hover:text-blue-600 transition-colors"
               >
                 <Github className="h-4 w-4" />
-                Made with ❤️ by V S Rishith Reddy
+                Made by V S Rishith Reddy
               </a>
             </div>
           </footer>
