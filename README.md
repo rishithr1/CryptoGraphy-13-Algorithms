@@ -1,8 +1,6 @@
-# CipherGrid - Classical Cryptography Toolkit 🔐
+<img width="1440" alt="Homepage" src="https://github.com/user-attachments/assets/6b55c784-6ff1-4554-b469-25ae15ce4d5a" /><img width="1440" alt="Encryption_process" src="https://github.com/user-attachments/assets/6219f36c-3c6c-46b4-bba5-eccf09b26264" /># CipherGrid - Classical Cryptography Toolkit 🔐
 
 A modern, interactive web application showcasing 15 classical cryptographic algorithms with real-time encryption and decryption capabilities.
-
-![CipherGrid Demo](./assets/demo.gif)
 
 ## 🌟 Features
 
@@ -96,20 +94,16 @@ CryptoGraphy-13-Algorithms/
 └── assets/             # README assets (screenshots, etc.)
 ```
 
-## 📷 Adding Screenshots
-
-1. Create an `assets` directory in your project root:
-   ```bash
-   mkdir assets
-   ```
-
-2. Add your screenshots to the assets folder:
-   - `demo.gif` - Animated demonstration of the application
+## 📷  Screenshots
+   - `demo.gif` - Working of my cryptotollkit
+   https://drive.google.com/file/d/18UXBZer3lUPE1v45i90yKEveerii9UaC/view?usp=sharing
+     
    - `homepage.png` - Homepage screenshot
-   - `encryption.png` - Encryption process screenshot
-   - `algorithms.png` - Algorithm selection screenshot
+<img width="1440" alt="Homepage" src="https://github.com/user-attachments/assets/2cee9fb9-20ab-43af-b996-c6f8253f4c36" />
 
-3. Optimize your images before adding them to keep the repository size manageable
+   - `encryption.png` - Encryption process screenshot
+<img width="1440" alt="Encryption_process" src="https://github.com/user-attachments/assets/b323b0a4-cb9e-460a-bd41-05c5a3209b40" />
+
 
 ## 🤝 Contributing
 
@@ -118,10 +112,6 @@ CryptoGraphy-13-Algorithms/
 3. Commit your changes: `git commit -m 'Add amazing feature'`
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
