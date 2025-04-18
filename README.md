@@ -2,6 +2,10 @@
 
 A modern, interactive web application showcasing 15 classical cryptographic algorithms with real-time encryption and decryption capabilities.
 
+## 🎥 Demo Video
+
+[Watch the full demo video](https://drive.google.com/file/d/18UXBZer3lUPE1v45i90yKEveerii9UaC/view?usp=sharing)
+
 ## 🌟 Features
 
 - **15 Classical Ciphers** implemented with detailed step-by-step explanations
@@ -74,9 +78,21 @@ Visit the live application: [CipherGrid](https://ciphergrid.vercel.app/)
 
 ## 📸 Screenshots
 
-![Homepage](<img width="1440" alt="Homepage" src="https://github.com/user-attachments/assets/6b55c784-6ff1-4554-b469-25ae15ce4d5a" />)
-![Encryption Demo](<img width="1440" alt="Encryption_process" src="https://github.com/user-attachments/assets/6219f36c-3c6c-46b4-bba5-eccf09b26264" />)
-![Algorithm Selection](https://drive.google.com/file/d/18UXBZer3lUPE1v45i90yKEveerii9UaC/view?usp=sharing)
+### Main Interface
+![Main Interface](./assets/homepage.png)
+The main interface showing the input section and algorithm selection.
+
+### Encryption Process
+![Encryption Process](./assets/encryption.png)
+Step-by-step visualization of the encryption process.
+
+### Mobile View (Home Page)
+![Mobile View](./assets/mobile-view1.png)
+Responsive design optimized for mobile devices.
+
+### Mobile View (Algorithms Selection)
+![Mobile View](./assets/mobile-view2.png)
+
 
 ## 📁 Project Structure
 
@@ -94,6 +110,22 @@ CryptoGraphy-13-Algorithms/
 └── assets/             # README assets (screenshots, etc.)
 ```
 
+## 📷 Adding Screenshots
+
+1. Create an `assets` directory in your project root:
+   ```bash
+   mkdir assets
+   ```
+
+2. Add your screenshots to the assets folder:
+   - `main-interface.png` - Main application interface
+   - `algorithm-selection.png` - Algorithm selection dropdown
+   - `encryption-process.png` - Encryption process demonstration
+   - `decryption-steps.png` - Decryption steps visualization
+   - `mobile-view.png` - Mobile responsive design
+
+3. Optimize your images before adding them to keep the repository size manageable
+
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -102,12 +134,16 @@ CryptoGraphy-13-Algorithms/
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## 👨‍💻 Author
 
 V S Rishith Reddy
 - GitHub: [@rishithr1](https://github.com/rishithr1)
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - [Lucide Icons](https://lucide.dev) for the beautiful icons
 - [Radix UI](https://www.radix-ui.com) for accessible UI components
