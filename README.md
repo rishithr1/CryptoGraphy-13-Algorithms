@@ -134,16 +134,12 @@ CryptoGraphy-13-Algorithms/
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 V S Rishith Reddy
 - GitHub: [@rishithr1](https://github.com/rishithr1)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Lucide Icons](https://lucide.dev) for the beautiful icons
 - [Radix UI](https://www.radix-ui.com) for accessible UI components
